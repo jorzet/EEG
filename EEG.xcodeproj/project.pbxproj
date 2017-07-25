@@ -14,6 +14,8 @@
 		E0AB77871E89DD5F00CD6638 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0AB77851E89DD5F00CD6638 /* LaunchScreen.storyboard */; };
 		E0AB77921E89DD5F00CD6638 /* EEGTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0AB77911E89DD5F00CD6638 /* EEGTests.swift */; };
 		E0AB779D1E89DD5F00CD6638 /* EEGUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0AB779C1E89DD5F00CD6638 /* EEGUITests.swift */; };
+		E0EA48C01F27EA5500391304 /* ViewControllerLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0EA48BF1F27EA5500391304 /* ViewControllerLogin.swift */; };
+		E0EA48C51F27EC2400391304 /* ic_logo0.png in Resources */ = {isa = PBXBuildFile; fileRef = E0EA48C41F27EC2400391304 /* ic_logo0.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		E0AB77981E89DD5F00CD6638 /* EEGUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EEGUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0AB779C1E89DD5F00CD6638 /* EEGUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EEGUITests.swift; sourceTree = "<group>"; };
 		E0AB779E1E89DD5F00CD6638 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0EA48BF1F27EA5500391304 /* ViewControllerLogin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerLogin.swift; sourceTree = "<group>"; };
+		E0EA48C41F27EC2400391304 /* ic_logo0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_logo0.png; path = ../../PT2_v1/app/src/main/res/drawable/ic_logo0.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,7 @@
 		E0AB77701E89DD5E00CD6638 = {
 			isa = PBXGroup;
 			children = (
+				E0EA48C11F27EB7900391304 /* Images */,
 				E0AB777B1E89DD5F00CD6638 /* EEG */,
 				E0AB77901E89DD5F00CD6638 /* EEGTests */,
 				E0AB779B1E89DD5F00CD6638 /* EEGUITests */,
@@ -103,6 +108,7 @@
 				E0AB77831E89DD5F00CD6638 /* Assets.xcassets */,
 				E0AB77851E89DD5F00CD6638 /* LaunchScreen.storyboard */,
 				E0AB77881E89DD5F00CD6638 /* Info.plist */,
+				E0EA48BF1F27EA5500391304 /* ViewControllerLogin.swift */,
 			);
 			path = EEG;
 			sourceTree = "<group>";
@@ -123,6 +129,14 @@
 				E0AB779E1E89DD5F00CD6638 /* Info.plist */,
 			);
 			path = EEGUITests;
+			sourceTree = "<group>";
+		};
+		E0EA48C11F27EB7900391304 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				E0EA48C41F27EC2400391304 /* ic_logo0.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,6 +249,7 @@
 				E0AB77871E89DD5F00CD6638 /* LaunchScreen.storyboard in Resources */,
 				E0AB77841E89DD5F00CD6638 /* Assets.xcassets in Resources */,
 				E0AB77821E89DD5F00CD6638 /* Main.storyboard in Resources */,
+				E0EA48C51F27EC2400391304 /* ic_logo0.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +276,7 @@
 			files = (
 				E0AB777F1E89DD5F00CD6638 /* ViewController.swift in Sources */,
 				E0AB777D1E89DD5F00CD6638 /* AppDelegate.swift in Sources */,
+				E0EA48C01F27EA5500391304 /* ViewControllerLogin.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -505,6 +521,7 @@
 				E0AB77A31E89DD5F00CD6638 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E0AB77A41E89DD5F00CD6638 /* Build configuration list for PBXNativeTarget "EEGTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +530,7 @@
 				E0AB77A61E89DD5F00CD6638 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E0AB77A71E89DD5F00CD6638 /* Build configuration list for PBXNativeTarget "EEGUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +539,7 @@
 				E0AB77A91E89DD5F00CD6638 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
